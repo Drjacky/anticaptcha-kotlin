@@ -5,8 +5,9 @@
 Access to Anti Captcha API v2 via Kotlin
 
 ## How to use 👣
-
-Run the main function in the Main class
+- Create an account [here](http://getcaptchasolution.com/kt1yavajcg)
+- Set the client key by `setClientKey`
+- Run the main function in the Main class
 
 ## References 🧷
 
