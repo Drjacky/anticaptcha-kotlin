@@ -1,4 +1,4 @@
-package app.web.drjacky.anticaptcha.app.web.drjacky
+package app.web.drjacky.anticaptcha
 
 import app.web.drjacky.anticaptcha.AnticaptchaBase.ProxyTypeOption
 import app.web.drjacky.anticaptcha.api.*
