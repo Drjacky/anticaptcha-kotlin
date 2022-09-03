@@ -1,10 +1,13 @@
 # Anti-Captcha ⅁
 
+[![Releases](https://img.shields.io/github/release/Drjacky/anticaptcha-kotlin/all.svg?style=flat-square)](https://github.com/Drjacky/anticaptcha-kotlin/releases)
 ![Language](https://img.shields.io/badge/Kotlin-1.7.10-blue) ![License](https://img.shields.io/github/license/Drjacky/anticaptcha-kotlin?logo=MIT)
 
 Access to Anti Captcha API v2 via Kotlin
 
 ## How to use 👣
+
+- Add `https://jitpack.io` to your `build.gradle`
 - Create an account [here](http://getcaptchasolution.com/kt1yavajcg)
 - Set the client key by `setClientKey`
 - Run the main function in the Main class
