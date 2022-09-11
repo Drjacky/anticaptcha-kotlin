@@ -4,8 +4,8 @@ plugins {
     kotlin("jvm") version "1.7.10"
 }
 
-group = "org.example"
-version = "1.0-SNAPSHOT"
+group = "app.web.drjacky"
+version = "1.0.1"
 
 repositories {
     mavenCentral()
@@ -33,3 +33,13 @@ tasks.test {
 tasks.withType<KotlinCompile> {
     kotlinOptions.jvmTarget = "1.8"
 }
+
+allprojects {
+    ext {
+        set("PUBLISH_GROUP_ID", "com.github.Drjacky")
+        set("PUBLISH_VERSION", version)
+        set("PUBLISH_ARTIFACT_ID", "anticaptcha-kotlin")
+    }
+}
+
+apply(from = "${rootProject.projectDir}/scripts/publish-mavencentral.gradle")
