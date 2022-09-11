@@ -1,3 +1,4 @@
+apply plugin: 'java'
 apply plugin: 'maven-publish'
 
 publishing {
@@ -6,6 +7,8 @@ publishing {
             groupId PUBLISH_GROUP_ID
             artifactId PUBLISH_ARTIFACT_ID
             version PUBLISH_VERSION
+
+            from components.java
         }
     }
 }

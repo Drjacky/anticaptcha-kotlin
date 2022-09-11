@@ -7,6 +7,10 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
 
+## [1.0.2] - 2022-09-11
+
+* Fix an issue on publishing the repo on jitpack
+
 ## [1.0.1] - 2022-09-11
 
 * Improve how to use the library
